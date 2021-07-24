@@ -3,6 +3,9 @@
 .navbar-board {
     display: flex;
     align-items: center;
+
+    height: $navbar-app-height;
+
     padding-left: $gap;                     
     background-color: $board-bg-color;
     font-weight: bold;

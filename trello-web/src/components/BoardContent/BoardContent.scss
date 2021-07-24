@@ -3,19 +3,29 @@
 
 
 .board-content {
-    display: flex;
+    // display   : flex;
     overflow-x: auto;
-    margin: 0 $gap $gap;
+    overflow-y: hidden;
+    height: $board-content-height;
+    // margin    : 0 $gap $gap;
 
     &::-webkit-scrollbar {
         -webkit-appearance: none;
     }
+
     &::-webkit-scrollbar:horizontal {
         height: 8px;
     }
+
     &::-webkit-scrollbar-thumb {
         background-color: $common-element-bg-color;
         // border-bottom: 3px solid $board-bg-color;
-        border-radius: 8px;
+        border-radius   : 8px;
+    }
+
+    .columns-drop-preview {
+        background-color: rgba(150, 150, 200, 0.1);
+        border          : 1px dashed #abc;
+        margin          : 5px 45px 5px 5px;
     }
 }

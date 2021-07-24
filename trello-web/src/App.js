@@ -1,3 +1,4 @@
+import React from 'react'
 import './style.scss'
 
 // Custom components
@@ -12,7 +13,7 @@ function App() {
             <BoardBar />
             <BoardContent />
         </div>
-    );
+    )
 }
 
 export default App;
