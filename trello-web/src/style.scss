@@ -1,16 +1,24 @@
 @import '_setting.scss';
 
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.3em;
     font-size: 14px;
-    box-sizing: border-box;
 }
 
 .trello-master {
     height: 100vh;
     overflow: hidden;
     background-color: $board-bg-color;
+    color: $primary-text-color;
+    
+    .icon {
+        font-size: 14px;
+        margin-right: 5px;
+    }
 }

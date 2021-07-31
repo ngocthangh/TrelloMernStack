@@ -3,7 +3,8 @@
 
 
 .board-content {
-    // display   : flex;
+    display   : flex;
+    gap: 10px;
     overflow-x: auto;
     overflow-y: hidden;
     height: $board-content-height;
@@ -27,5 +28,17 @@
         background-color: rgba(150, 150, 200, 0.1);
         border          : 1px dashed #abc;
         margin          : 5px 45px 5px 5px;
+    }
+    .add-another-column {
+        background-color: $list-bg-color;
+        width: 300px;
+        height: fit-content;
+        padding: 10px 15px;
+        border-radius: $column-border-radius;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #c5c5c5;
+        }
     }
 }

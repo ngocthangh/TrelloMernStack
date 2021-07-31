@@ -9,7 +9,7 @@ function Card(props) {
             {
                 card.cover ? (
                     <div className="card-item">
-                        <img src={card.cover} alt="logo" />
+                        <img src={card.cover} alt="logo" draggable="false" />
                         {card.title}
                     </div>
                 ) : (
